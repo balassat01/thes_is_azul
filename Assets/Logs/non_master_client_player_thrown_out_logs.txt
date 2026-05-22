@@ -1,0 +1,1235 @@
+[PLAYER CLIENT LOGS]
+[LocalizationManager] Loaded language: en (12 categories)
+UnityEngine.Debug:Log (object)
+Localization.LocalizationManager:LoadLanguage (string) (at Assets/Scripts/Localization/LocalizationManager.cs:114)
+Localization.LocalizationManager:Awake () (at Assets/Scripts/Localization/LocalizationManager.cs:56)
+UnityEngine.GameObject:AddComponent<Localization.LocalizationManager> ()
+Localization.LocalizationManager:get_Instance () (at Assets/Scripts/Localization/LocalizationManager.cs:23)
+Localization.LocalizedText:OnEnable () (at Assets/Scripts/Localization/LocalizedText.cs:37)
+
+[AzulNet] Awake: Setting Instance and DontDestroyOnLoad for 'AzulNetworkManager'
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:Awake () (at Assets/Scripts/Netcode/AzulNet.cs:34)
+
+[AzulNet] OnSceneLoaded: scene='LobbyScene', mode=4
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:89)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Ignoring scene 'LobbyScene' (not GameScene)
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:94)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[LanguageSwitcher] Created 2 flag buttons
+UnityEngine.Debug:Log (object)
+Localization.LanguageSwitcher:CreateFlagButtons () (at Assets/Scripts/Localization/LanguageSwitcher.cs:124)
+Localization.LanguageSwitcher:Initialize () (at Assets/Scripts/Localization/LanguageSwitcher.cs:67)
+Localization.LanguageSwitcher:Start () (at Assets/Scripts/Localization/LanguageSwitcher.cs:45)
+
+[LanguageSwitcher] Initialized
+UnityEngine.Debug:Log (object)
+Localization.LanguageSwitcher:Initialize () (at Assets/Scripts/Localization/LanguageSwitcher.cs:72)
+Localization.LanguageSwitcher:Start () (at Assets/Scripts/Localization/LanguageSwitcher.cs:45)
+
+[AzulNet] Start: InRoom=False, IsMasterClient=False
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:Start () (at Assets/Scripts/Netcode/AzulNet.cs:68)
+
+[AzulNet] Start: Not in room, skipping callback registration
+UnityEngine.Debug:LogWarning (object)
+Netcode.AzulNet:Start () (at Assets/Scripts/Netcode/AzulNet.cs:73)
+
+PUN is in development mode (development build). As the 'dev region' is not empty (eu) it overrides the found best region. See PhotonServerSettings.
+UnityEngine.Debug:LogWarning (object)
+Photon.Pun.PhotonNetwork:OnRegionsPinged (Photon.Realtime.RegionHandler) (at Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs:2546)
+Photon.Realtime.MonoBehaviourEmpty:Update () (at Assets/Photon/PhotonRealtime/Code/RegionHandler.cs:884)
+
+[ConnectionManager] Connected to Photon Master Server (Region: eu)
+UnityEngine.Debug:Log (object)
+Netcode.ConnectionManager:OnConnectedToMaster () (at Assets/Scripts/Netcode/ConnectionManager.cs:63)
+Photon.Realtime.ConnectionCallbacksContainer:OnConnectedToMaster () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4342)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2912)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Connected to Photon Master Server
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnConnectedToMaster () (at Assets/Scripts/UI/LobbyManager.cs:157)
+Photon.Realtime.ConnectionCallbacksContainer:OnConnectedToMaster () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4342)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2912)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[ConnectionManager] Joined lobby
+UnityEngine.Debug:Log (object)
+Netcode.ConnectionManager:OnJoinedLobby () (at Assets/Scripts/Netcode/ConnectionManager.cs:73)
+Photon.Realtime.LobbyCallbacksContainer:OnJoinedLobby () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4564)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3070)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Joined Lobby
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnJoinedLobby () (at Assets/Scripts/UI/LobbyManager.cs:164)
+Photon.Realtime.LobbyCallbacksContainer:OnJoinedLobby () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4564)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3070)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Room list updated: 0 changes
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at Assets/Scripts/UI/LobbyManager.cs:707)
+Photon.Realtime.LobbyCallbacksContainer:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at
+Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4584)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3409)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Room list updated: 1 changes
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at Assets/Scripts/UI/LobbyManager.cs:707)
+Photon.Realtime.LobbyCallbacksContainer:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at
+Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4584)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3409)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Room added/updated: ANQB33 (1/4)
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at Assets/Scripts/UI/LobbyManager.cs:725)
+Photon.Realtime.LobbyCallbacksContainer:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at
+Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4584)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3409)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Opening room browser
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnBrowseRoomsClicked () (at Assets/Scripts/UI/LobbyManager.cs:628)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@7056cb05de4c/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[LobbyManager] Room browser updated: 1 rooms displayed
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:UpdateRoomBrowser () (at Assets/Scripts/UI/LobbyManager.cs:797)
+UI.LobbyManager:OnBrowseRoomsClicked () (at Assets/Scripts/UI/LobbyManager.cs:630)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@7056cb05de4c/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[LobbyManager] Room selected: ANQB33
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnRoomListItemClicked (string) (at Assets/Scripts/UI/LobbyManager.cs:685)
+UI.RoomListItem:OnClicked () (at Assets/Scripts/UI/RoomListItem.cs:151)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@7056cb05de4c/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[LobbyManager] Joining room: ANQB33
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnJoinSelectedClicked () (at Assets/Scripts/UI/LobbyManager.cs:676)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@7056cb05de4c/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[LobbyManager] Joined room: ANQB33
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnJoinedRoom () (at Assets/Scripts/UI/LobbyManager.cs:263)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4419)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3449)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[AzulNet] OnSceneLoaded: scene='GameScene', mode=Single
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:89)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] GameScene loaded. IsMasterClient=False, InRoom=True, State=False
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:106)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Non-master client, requesting snapshot from room properties...
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:135)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] OnRoomPropertiesUpdate called. IsMasterClient=False, ChangedKeys=GameStarted, IsPrivate, MaxPlayers, curScn, TurnTimer, UseGrayBox
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnRoomPropertiesUpdate (ExitGames.Client.Photon.Hashtable) (at Assets/Scripts/Netcode/AzulNet.cs:194)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:137)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] OnRoomPropertiesUpdate: GameStarted=true but Version property missing. Waiting for master to publish state...
+UnityEngine.Debug:LogWarning (object)
+Netcode.AzulNet:OnRoomPropertiesUpdate (ExitGames.Client.Photon.Hashtable) (at Assets/Scripts/Netcode/AzulNet.cs:232)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:137)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulGameController] WaitForAzulNetAndInitialize started. IsMasterClient: False, InRoom: True
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Check 1: AzulNet.Instance=True, InRoom=True, IsMaster=False
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:63)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] AzulNet.Instance found! Subscribing to SnapshotUpdated event...
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:67)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Subscribed to AzulNet.SnapshotUpdated
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:69)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Requesting snapshot refresh...
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:72)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] Requesting snapshot from room properties
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:765)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] OnRoomPropertiesUpdate called. IsMasterClient=False, ChangedKeys=GameStarted, IsPrivate, MaxPlayers, curScn, TurnTimer, UseGrayBox
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnRoomPropertiesUpdate (ExitGames.Client.Photon.Hashtable) (at Assets/Scripts/Netcode/AzulNet.cs:194)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:766)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] OnRoomPropertiesUpdate: GameStarted=true but Version property missing. Waiting for master to publish state...
+UnityEngine.Debug:LogWarning (object)
+Netcode.AzulNet:OnRoomPropertiesUpdate (ExitGames.Client.Photon.Hashtable) (at Assets/Scripts/Netcode/AzulNet.cs:232)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:766)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Initialization complete!
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:74)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] Awake: Instance already exists! Destroying duplicate GameObject 'AzulNetworkManager'
+UnityEngine.Debug:LogWarning (object)
+Netcode.AzulNet:Awake () (at Assets/Scripts/Netcode/AzulNet.cs:30)
+
+[AzulNet] OnSceneLoaded: scene='LobbyScene', mode=Single
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:89)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Ignoring scene 'LobbyScene' (not GameScene)
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:94)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[LanguageSwitcher] Created 2 flag buttons
+UnityEngine.Debug:Log (object)
+Localization.LanguageSwitcher:CreateFlagButtons () (at Assets/Scripts/Localization/LanguageSwitcher.cs:124)
+Localization.LanguageSwitcher:Initialize () (at Assets/Scripts/Localization/LanguageSwitcher.cs:67)
+Localization.LanguageSwitcher:Start () (at Assets/Scripts/Localization/LanguageSwitcher.cs:45)
+
+[LanguageSwitcher] Initialized
+UnityEngine.Debug:Log (object)
+Localization.LanguageSwitcher:Initialize () (at Assets/Scripts/Localization/LanguageSwitcher.cs:72)
+Localization.LanguageSwitcher:Start () (at Assets/Scripts/Localization/LanguageSwitcher.cs:45)
+
+[AzulNet] OnDestroy called for 'AzulNetworkManager'. Instance=False
+UnityEngine.Debug:LogWarning (object)
+Netcode.AzulNet:OnDestroy () (at Assets/Scripts/Netcode/AzulNet.cs:53)
+
+
+
+[MASTER LIENT LOGS]:
+PUN is in development mode (development build). As the 'dev region' is not empty (eu) it overrides the found best region. See PhotonServerSettings.
+UnityEngine.Debug:LogWarning (object)
+Photon.Pun.PhotonNetwork:OnRegionsPinged (Photon.Realtime.RegionHandler) (at Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs:2546)
+Photon.Realtime.MonoBehaviourEmpty:Update () (at Assets/Photon/PhotonRealtime/Code/RegionHandler.cs:884)
+
+[ConnectionManager] Connected to Photon Master Server (Region: eu)
+UnityEngine.Debug:Log (object)
+Netcode.ConnectionManager:OnConnectedToMaster () (at Assets/Scripts/Netcode/ConnectionManager.cs:63)
+Photon.Realtime.ConnectionCallbacksContainer:OnConnectedToMaster () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4342)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2912)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Connected to Photon Master Server
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnConnectedToMaster () (at Assets/Scripts/UI/LobbyManager.cs:157)
+Photon.Realtime.ConnectionCallbacksContainer:OnConnectedToMaster () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4342)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:2912)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[ConnectionManager] Joined lobby
+UnityEngine.Debug:Log (object)
+Netcode.ConnectionManager:OnJoinedLobby () (at Assets/Scripts/Netcode/ConnectionManager.cs:73)
+Photon.Realtime.LobbyCallbacksContainer:OnJoinedLobby () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4564)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3070)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Joined Lobby
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnJoinedLobby () (at Assets/Scripts/UI/LobbyManager.cs:164)
+Photon.Realtime.LobbyCallbacksContainer:OnJoinedLobby () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4564)
+Photon.Realtime.LoadBalancingClient:OnOperationResponse (ExitGames.Client.Photon.OperationResponse) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3070)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:877)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Room list updated: 0 changes
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at Assets/Scripts/UI/LobbyManager.cs:707)
+Photon.Realtime.LobbyCallbacksContainer:OnRoomListUpdate (System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>) (at
+Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4584)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3409)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Joined room: DHVBE0
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnJoinedRoom () (at Assets/Scripts/UI/LobbyManager.cs:263)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4419)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3449)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Assigning color 4 to player test1
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:AssignPlayerColors () (at Assets/Scripts/UI/LobbyManager.cs:460)
+UI.LobbyManager:UpdatePlayerList () (at Assets/Scripts/UI/LobbyManager.cs:388)
+UI.LobbyManager:OnJoinedRoom () (at Assets/Scripts/UI/LobbyManager.cs:294)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom () (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4419)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3449)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Player joined: test2
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Scripts/UI/LobbyManager.cs:358)
+Photon.Realtime.InRoomCallbacksContainer:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4497)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3453)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Player test1 already has color 4
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:AssignPlayerColors () (at Assets/Scripts/UI/LobbyManager.cs:433)
+UI.LobbyManager:UpdatePlayerList () (at Assets/Scripts/UI/LobbyManager.cs:388)
+UI.LobbyManager:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Scripts/UI/LobbyManager.cs:359)
+Photon.Realtime.InRoomCallbacksContainer:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4497)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3453)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] Assigning color 2 to player test2
+UnityEngine.Debug:Log (object)
+UI.LobbyManager:AssignPlayerColors () (at Assets/Scripts/UI/LobbyManager.cs:460)
+UI.LobbyManager:UpdatePlayerList () (at Assets/Scripts/UI/LobbyManager.cs:388)
+UI.LobbyManager:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Scripts/UI/LobbyManager.cs:359)
+Photon.Realtime.InRoomCallbacksContainer:OnPlayerEnteredRoom (Photon.Realtime.Player) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4497)
+Photon.Realtime.LoadBalancingClient:OnEvent (ExitGames.Client.Photon.EventData) (at Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3453)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback (ExitGames.Client.Photon.StreamBuffer) (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PeerBase.cs:904)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/EnetPeer.cs:595)
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands () (at D:/Dev/Work/photon-dotnet-sdk/PhotonDotNet/PhotonPeer.cs:1779)
+Photon.Pun.PhotonHandler:Dispatch () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+Photon.Pun.PhotonHandler:FixedUpdate () (at Assets/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs:156)
+
+[LobbyManager] GameStarted property synced, loading GameScene...
+UnityEngine.Debug:Log (object)
+UI.LobbyManager/<LoadGameSceneAfterSync>d__69:MoveNext () (at Assets/Scripts/UI/LobbyManager.cs:541)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[AzulNet] OnSceneLoaded: scene='GameScene', mode=Single
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:89)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] GameScene loaded. IsMasterClient=True, InRoom=True, State=False
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:106)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Master client initializing game state...
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:119)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Player test1 (Actor 1) has lobby color 4
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet/<>c:<InitializeStateOnMaster>b__31_1 (Photon.Realtime.Player) (at Assets/Scripts/Netcode/AzulNet.cs:527)
+System.Linq.Enumerable:ToArray<System.ValueTuple`3<int, string, byte>> (System.Collections.Generic.IEnumerable`1<System.ValueTuple`3<int, string, byte>>)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:519)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Player test2 (Actor 2) has lobby color 2
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet/<>c:<InitializeStateOnMaster>b__31_1 (Photon.Realtime.Player) (at Assets/Scripts/Netcode/AzulNet.cs:527)
+System.Linq.Enumerable:ToArray<System.ValueTuple`3<int, string, byte>> (System.Collections.Generic.IEnumerable`1<System.ValueTuple`3<int, string, byte>>)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:519)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [20, 20, 20, 20, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[20,20,20,20,20], sum=100, roll=74
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 3
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 3
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [20, 20, 20, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[20,20,20,19,20], sum=99, roll=54
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [20, 20, 19, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[20,20,19,19,20], sum=98, roll=17
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 0
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 0
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [19, 20, 19, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[19,20,19,19,20], sum=97, roll=50
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [19, 20, 18, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[19,20,18,19,20], sum=96, roll=1
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 0
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 0
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [18, 20, 18, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[18,20,18,19,20], sum=95, roll=2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 0
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 0
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 18, 19, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,18,19,20], sum=94, roll=60
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 3
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 3
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 18, 18, 20]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,18,18,20], sum=93, roll=78
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 4
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 4
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 18, 18, 19]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,18,18,19], sum=92, roll=57
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 3
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 3
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 18, 17, 19]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,18,17,19], sum=91, roll=42
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 17, 17, 19]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,17,17,19], sum=90, roll=51
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 16, 17, 19]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,16,17,19], sum=89, roll=77
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 4
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 4
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 16, 17, 18]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,16,17,18], sum=88, roll=64
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 3
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 3
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 16, 16, 18]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,16,16,18], sum=87, roll=79
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 4
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 4
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 16, 16, 17]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,16,16,17], sum=86, roll=83
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 4
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 4
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 16, 16, 16]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,16,16,16], sum=85, roll=43
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 20, 15, 16, 16]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,20,15,16,16], sum=84, roll=25
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 1
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 1
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [17, 19, 15, 16, 16]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[17,19,15,16,16], sum=83, roll=12
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 0
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 0
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [16, 19, 15, 16, 16]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[16,19,15,16,16], sum=82, roll=36
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 2
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 2
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] DrawFromContainers - Bag contents: [16, 19, 14, 16, 16]
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:83)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - counts=[16,19,14,16,16], sum=81, roll=55
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:52)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[RNG] DrawWeighted - selected index 3
+UnityEngine.Debug:Log (object)
+Core.Domain.RNG:DrawWeighted (int[]) (at Assets/Scripts/Core/Domain/RNG.cs:58)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:85)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulEngine] Drew color: 3
+UnityEngine.Debug:Log (object)
+Core.Domain.AzulEngine:DrawFromContainers (int[],int[],Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:86)
+Core.Domain.AzulEngine:RefillAndBeginOffer (Core.Domain.GameState,Core.Domain.RNG) (at Assets/Scripts/Core/Domain/AzulEngine.cs:69)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:566)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Game initialized: Players=2, GrayBox=False, Timer=0s
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:InitializeStateOnMaster () (at Assets/Scripts/Netcode/AzulNet.cs:572)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:120)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] PublishSnapshot called
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:674)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Encoding game state (Version: 1)...
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:688)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Encoded 22 properties from game state
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:692)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Copied 6 existing room properties
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:702)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Merged properties total: 28
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:709)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] R.Version property included: 1
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:714)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Setting custom properties on room...
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:721)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] PublishSnapshot complete
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:PublishSnapshot () (at Assets/Scripts/Netcode/AzulNet.cs:723)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:121)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulNet] Local snapshot update triggered from State
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:TriggerLocalSnapshotUpdate () (at Assets/Scripts/Netcode/AzulNet.cs:743)
+Netcode.AzulNet:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Scripts/Netcode/AzulNet.cs:123)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+[AzulGameController] WaitForAzulNetAndInitialize started. IsMasterClient: True, InRoom: True
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Check 1: AzulNet.Instance=True, InRoom=True, IsMaster=True
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:63)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] AzulNet.Instance found! Subscribing to SnapshotUpdated event...
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:67)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Subscribed to AzulNet.SnapshotUpdated
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:69)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Requesting snapshot refresh...
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:72)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] Manual snapshot refresh requested
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:759)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] OnSnapshot received. Phase: FactoryOffer, Round: 1, Players: 2, Factories: 5
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController:OnSnapshot (Netcode.RoomPropsCodec/Snapshot) (at Assets/Scripts/Gameplay/AzulGameController.cs:155)
+Netcode.AzulNet:TriggerLocalSnapshotUpdate () (at Assets/Scripts/Netcode/AzulNet.cs:740)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:760)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulNet] Local snapshot update triggered from State
+UnityEngine.Debug:Log (object)
+Netcode.AzulNet:TriggerLocalSnapshotUpdate () (at Assets/Scripts/Netcode/AzulNet.cs:743)
+Netcode.AzulNet:RequestSnapshotRefresh () (at Assets/Scripts/Netcode/AzulNet.cs:760)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:73)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)
+
+[AzulGameController] Initialization complete!
+UnityEngine.Debug:Log (object)
+Gameplay.AzulGameController/<WaitForAzulNetAndInitialize>d__12:MoveNext () (at Assets/Scripts/Gameplay/AzulGameController.cs:74)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+Gameplay.AzulGameController:Start () (at Assets/Scripts/Gameplay/AzulGameController.cs:48)

@@ -1,0 +1,17 @@
+{
+  "name": "AzulGame",
+  "references": [
+    "GUID:57c32fc907df0f54e8e6e8f0d2488336",
+    "GUID:831409e8f9d13b5479a3baef9822ad34",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "AzulTests",
+  "references": [
+    "AzulGame"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestableEditor"
+  ],
+  "allowUnsafeCode": false,
+  "autoReferenced": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Photon3Unity3D.dll"
+  ],
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

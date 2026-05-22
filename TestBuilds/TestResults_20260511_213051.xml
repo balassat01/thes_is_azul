@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="222" result="Failed(Child)" total="222" passed="221" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0,3889132">
+  <test-suite type="TestSuite" id="1249" name="Azul" fullname="Azul" runstate="Runnable" testcasecount="222" result="Failed" site="Child" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.388913" total="222" passed="221" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1243" name="AzulTests.dll" fullname="C:/Users/balas/Azul/Library/ScriptAssemblies/AzulTests.dll" runstate="Runnable" testcasecount="222" result="Failed" site="Child" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.366444" total="222" passed="221" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23544" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1244" name="AzulTests" fullname="AzulTests" runstate="Runnable" testcasecount="222" result="Failed" site="Child" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.361139" total="222" passed="221" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1030" name="AzulEngineApplyTakeTilesTests" fullname="AzulTests.AzulEngineApplyTakeTilesTests" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.082471" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1038" name="ApplyTakeTiles_ColorNotPresentInFactory_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_ColorNotPresentInFactory_ReturnsFalse" methodname="ApplyTakeTiles_ColorNotPresentInFactory_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1909237336" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.025768" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1033" name="ApplyTakeTiles_FactoryIndexNegative_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FactoryIndexNegative_ReturnsFalse" methodname="ApplyTakeTiles_FactoryIndexNegative_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1355657999" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.003189" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1034" name="ApplyTakeTiles_FactoryIndexTooLarge_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FactoryIndexTooLarge_ReturnsFalse" methodname="ApplyTakeTiles_FactoryIndexTooLarge_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="454635282" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000307" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1049" name="ApplyTakeTiles_FloorOverflow_ExcessGoToLidNotFloor" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FloorOverflow_ExcessGoToLidNotFloor" methodname="ApplyTakeTiles_FloorOverflow_ExcessGoToLidNotFloor" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="992806608" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.010801" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1035" name="ApplyTakeTiles_FromCenter_ColorNotPresent_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromCenter_ColorNotPresent_ReturnsFalse" methodname="ApplyTakeTiles_FromCenter_ColorNotPresent_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1249258767" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000355" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1046" name="ApplyTakeTiles_FromCenter_FirstPickTakesFirstPlayerToken" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromCenter_FirstPickTakesFirstPlayerToken" methodname="ApplyTakeTiles_FromCenter_FirstPickTakesFirstPlayerToken" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1928217449" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.002057" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1047" name="ApplyTakeTiles_FromCenter_TokenOnlyGrantedOnce" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromCenter_TokenOnlyGrantedOnce" methodname="ApplyTakeTiles_FromCenter_TokenOnlyGrantedOnce" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1153876895" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001128" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1041" name="ApplyTakeTiles_FromFactory_ChoseColorRemovedFromFactory" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromFactory_ChoseColorRemovedFromFactory" methodname="ApplyTakeTiles_FromFactory_ChoseColorRemovedFromFactory" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="928947137" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000439" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1043" name="ApplyTakeTiles_FromFactory_FactoryIsEmptyAfterward" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromFactory_FactoryIsEmptyAfterward" methodname="ApplyTakeTiles_FromFactory_FactoryIsEmptyAfterward" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="401113479" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000343" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1042" name="ApplyTakeTiles_FromFactory_LeftoversMovedToCenter" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromFactory_LeftoversMovedToCenter" methodname="ApplyTakeTiles_FromFactory_LeftoversMovedToCenter" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1547977745" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000481" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1044" name="ApplyTakeTiles_FromFactory_TilesPlacedInPatternLine" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromFactory_TilesPlacedInPatternLine" methodname="ApplyTakeTiles_FromFactory_TilesPlacedInPatternLine" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1321432897" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000564" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1045" name="ApplyTakeTiles_FromFactory_TurnAdvancesToNextPlayer" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_FromFactory_TurnAdvancesToNextPlayer" methodname="ApplyTakeTiles_FromFactory_TurnAdvancesToNextPlayer" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="689887291" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000243" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1052" name="ApplyTakeTiles_MarketBecomesEmpty_PhaseBecomesBoxTiling" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_MarketBecomesEmpty_PhaseBecomesBoxTiling" methodname="ApplyTakeTiles_MarketBecomesEmpty_PhaseBecomesBoxTiling" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="316632292" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001700" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1031" name="ApplyTakeTiles_NegativeRow_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_NegativeRow_ReturnsFalse" methodname="ApplyTakeTiles_NegativeRow_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="33177098" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000290" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1048" name="ApplyTakeTiles_Overflow_ExcessTilesGoToFloor" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_Overflow_ExcessTilesGoToFloor" methodname="ApplyTakeTiles_Overflow_ExcessTilesGoToFloor" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="814112488" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000282" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1050" name="ApplyTakeTiles_PatternRowAlreadyFull_SameColor_AllTilesOverflowToFloor" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_PatternRowAlreadyFull_SameColor_AllTilesOverflowToFloor" methodname="ApplyTakeTiles_PatternRowAlreadyFull_SameColor_AllTilesOverflowToFloor" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="701547725" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000455" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1040" name="ApplyTakeTiles_PatternRowHasDifferentColor_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_PatternRowHasDifferentColor_ReturnsFalse" methodname="ApplyTakeTiles_PatternRowHasDifferentColor_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="741837598" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000411" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1039" name="ApplyTakeTiles_RowAlreadyHasThatColor_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_RowAlreadyHasThatColor_ReturnsFalse" methodname="ApplyTakeTiles_RowAlreadyHasThatColor_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1520768133" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000307" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1032" name="ApplyTakeTiles_RowGreaterThan4_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_RowGreaterThan4_ReturnsFalse" methodname="ApplyTakeTiles_RowGreaterThan4_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="607684312" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000265" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1051" name="ApplyTakeTiles_ThreePlayer_TurnOrder_CyclesP1P2P3" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_ThreePlayer_TurnOrder_CyclesP1P2P3" methodname="ApplyTakeTiles_ThreePlayer_TurnOrder_CyclesP1P2P3" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1364666221" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000496" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1037" name="ApplyTakeTiles_WrongActor_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_WrongActor_ReturnsFalse" methodname="ApplyTakeTiles_WrongActor_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="1464132677" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000231" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1036" name="ApplyTakeTiles_WrongPhase_ReturnsFalse" fullname="AzulTests.AzulEngineApplyTakeTilesTests.ApplyTakeTiles_WrongPhase_ReturnsFalse" methodname="ApplyTakeTiles_WrongPhase_ReturnsFalse" classname="AzulTests.AzulEngineApplyTakeTilesTests" runstate="Runnable" seed="479918446" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000433" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1053" name="AzulEngineExecuteBoxTilingTests" fullname="AzulTests.AzulEngineExecuteBoxTilingTests" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.025061" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1064" name="ExecuteBoxTiling_CompletedBoxRow_SetsEndTriggeredAndGameOver" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_CompletedBoxRow_SetsEndTriggeredAndGameOver" methodname="ExecuteBoxTiling_CompletedBoxRow_SetsEndTriggeredAndGameOver" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1849903641" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.003521" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1066" name="ExecuteBoxTiling_EndGame_AwardsRowColColorBonuses" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_EndGame_AwardsRowColColorBonuses" methodname="ExecuteBoxTiling_EndGame_AwardsRowColColorBonuses" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="77100765" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000523" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1063" name="ExecuteBoxTiling_FirstPlayerTokenOnFloor_NotAddedToLid" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FirstPlayerTokenOnFloor_NotAddedToLid" methodname="ExecuteBoxTiling_FirstPlayerTokenOnFloor_NotAddedToLid" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="2031888928" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000316" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1061" name="ExecuteBoxTiling_FloorClearedAfterPenalty" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FloorClearedAfterPenalty" methodname="ExecuteBoxTiling_FloorClearedAfterPenalty" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1747263501" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000291" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1059" name="ExecuteBoxTiling_FloorPenaltyApplied_ScoreReducedCorrectly" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FloorPenaltyApplied_ScoreReducedCorrectly" methodname="ExecuteBoxTiling_FloorPenaltyApplied_ScoreReducedCorrectly" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="418492500" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000258" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1060" name="ExecuteBoxTiling_FloorPenaltyNeverBelowZero_ClampedAt0" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FloorPenaltyNeverBelowZero_ClampedAt0" methodname="ExecuteBoxTiling_FloorPenaltyNeverBelowZero_ClampedAt0" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1475326099" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000245" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1062" name="ExecuteBoxTiling_FloorTilesReturnedToLid" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FloorTilesReturnedToLid" methodname="ExecuteBoxTiling_FloorTilesReturnedToLid" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="550390983" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000228" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1067" name="ExecuteBoxTiling_FourPlayers_AllPlayersGetFloorPenalty" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FourPlayers_AllPlayersGetFloorPenalty" methodname="ExecuteBoxTiling_FourPlayers_AllPlayersGetFloorPenalty" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1089740133" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000347" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1055" name="ExecuteBoxTiling_FullPatternRow_PatternLineClearedAfterPlacement" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FullPatternRow_PatternLineClearedAfterPlacement" methodname="ExecuteBoxTiling_FullPatternRow_PatternLineClearedAfterPlacement" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="683343801" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000245" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1054" name="ExecuteBoxTiling_FullPatternRow_PlacedInBoxAtCorrectColumn" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FullPatternRow_PlacedInBoxAtCorrectColumn" methodname="ExecuteBoxTiling_FullPatternRow_PlacedInBoxAtCorrectColumn" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1568479131" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000243" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1058" name="ExecuteBoxTiling_FullRow_ExtrasTilesMovedToLid" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FullRow_ExtrasTilesMovedToLid" methodname="ExecuteBoxTiling_FullRow_ExtrasTilesMovedToLid" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="534610248" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000247" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1057" name="ExecuteBoxTiling_FullRow_ScoreIncremented" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_FullRow_ScoreIncremented" methodname="ExecuteBoxTiling_FullRow_ScoreIncremented" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="987746149" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000261" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1069" name="ExecuteBoxTiling_IgnoredWhenNotInBoxTilingPhase" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_IgnoredWhenNotInBoxTilingPhase" methodname="ExecuteBoxTiling_IgnoredWhenNotInBoxTilingPhase" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1312421910" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000342" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1068" name="ExecuteBoxTiling_MultipleFullRows_AllPlacedForSamePlayer" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_MultipleFullRows_AllPlacedForSamePlayer" methodname="ExecuteBoxTiling_MultipleFullRows_AllPlacedForSamePlayer" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1261349126" result="Failed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.006718" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <failure>
+              <message><![CDATA[  Row 1 tile must be present in box.
+  Expected: greater than or equal to 0
+  But was:  -1
+]]></message>
+              <stack-trace><![CDATA[at AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_MultipleFullRows_AllPlacedForSamePlayer () [0x000c3] in C:\Users\balas\Azul\Assets\Tests\EditMode\AzulEngineTests.cs:973
+]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1065" name="ExecuteBoxTiling_NoCompletedRow_PhaseBecomesRefill" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_NoCompletedRow_PhaseBecomesRefill" methodname="ExecuteBoxTiling_NoCompletedRow_PhaseBecomesRefill" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="2126634950" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000271" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1056" name="ExecuteBoxTiling_PartialPatternRow_NotMoved" fullname="AzulTests.AzulEngineExecuteBoxTilingTests.ExecuteBoxTiling_PartialPatternRow_NotMoved" methodname="ExecuteBoxTiling_PartialPatternRow_NotMoved" classname="AzulTests.AzulEngineExecuteBoxTilingTests" runstate="Runnable" seed="1423393703" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000457" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1070" name="AzulEngineGrayBoxTests" fullname="AzulTests.AzulEngineGrayBoxTests" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.017639" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1082" name="ApplyPlaceInBox_AllPlayersDone_FloorPenaltiesApplied" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_AllPlayersDone_FloorPenaltiesApplied" methodname="ApplyPlaceInBox_AllPlayersDone_FloorPenaltiesApplied" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="46657050" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001506" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1083" name="ApplyPlaceInBox_AllPlayersDone_PhaseTransitionsToRefill" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_AllPlayersDone_PhaseTransitionsToRefill" methodname="ApplyPlaceInBox_AllPlayersDone_PhaseTransitionsToRefill" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="1054377640" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001403" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1077" name="ApplyPlaceInBox_CellAlreadyOccupied_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_CellAlreadyOccupied_ReturnsFalse" methodname="ApplyPlaceInBox_CellAlreadyOccupied_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="225623203" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000330" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1078" name="ApplyPlaceInBox_ColorAlreadyInColumn_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_ColorAlreadyInColumn_ReturnsFalse" methodname="ApplyPlaceInBox_ColorAlreadyInColumn_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="1887867897" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000337" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1084" name="ApplyPlaceInBox_CompletedBoxRow_SetsEndTriggered" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_CompletedBoxRow_SetsEndTriggered" methodname="ApplyPlaceInBox_CompletedBoxRow_SetsEndTriggered" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="5071607" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000364" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1081" name="ApplyPlaceInBox_LastRowForCurrentPlayer_AdvancesToNextPlayerWithRows" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_LastRowForCurrentPlayer_AdvancesToNextPlayerWithRows" methodname="ApplyPlaceInBox_LastRowForCurrentPlayer_AdvancesToNextPlayerWithRows" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="1505734465" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000276" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1076" name="ApplyPlaceInBox_PatternRowNotFull_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_PatternRowNotFull_ReturnsFalse" methodname="ApplyPlaceInBox_PatternRowNotFull_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="974575664" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000289" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1080" name="ApplyPlaceInBox_ValidPlacement_PatternLineCleared" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_ValidPlacement_PatternLineCleared" methodname="ApplyPlaceInBox_ValidPlacement_PatternLineCleared" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="2138588508" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000309" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1079" name="ApplyPlaceInBox_ValidPlacement_TilePlacedAndScoreUpdated" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_ValidPlacement_TilePlacedAndScoreUpdated" methodname="ApplyPlaceInBox_ValidPlacement_TilePlacedAndScoreUpdated" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="966032170" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000396" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1075" name="ApplyPlaceInBox_WrongActor_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_WrongActor_ReturnsFalse" methodname="ApplyPlaceInBox_WrongActor_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="1590781562" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000241" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1074" name="ApplyPlaceInBox_WrongPhase_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.ApplyPlaceInBox_WrongPhase_ReturnsFalse" methodname="ApplyPlaceInBox_WrongPhase_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="1846205281" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000215" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1073" name="BeginGrayBoxTiling_NoPlayerHasFullRows_TransitionsImmediately" fullname="AzulTests.AzulEngineGrayBoxTests.BeginGrayBoxTiling_NoPlayerHasFullRows_TransitionsImmediately" methodname="BeginGrayBoxTiling_NoPlayerHasFullRows_TransitionsImmediately" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="261858934" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000519" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1072" name="BeginGrayBoxTiling_OnlySecondPlayerHasFullRows_SetsActiveToSecondPlayer" fullname="AzulTests.AzulEngineGrayBoxTests.BeginGrayBoxTiling_OnlySecondPlayerHasFullRows_SetsActiveToSecondPlayer" methodname="BeginGrayBoxTiling_OnlySecondPlayerHasFullRows_SetsActiveToSecondPlayer" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="127982258" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000278" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1071" name="BeginGrayBoxTiling_PlayerWithFullRows_SetsActiveActorToThatPlayer" fullname="AzulTests.AzulEngineGrayBoxTests.BeginGrayBoxTiling_PlayerWithFullRows_SetsActiveActorToThatPlayer" methodname="BeginGrayBoxTiling_PlayerWithFullRows_SetsActiveActorToThatPlayer" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="662151060" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000227" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1085" name="HasFullPatternRows_PlayerWithNoRows_ReturnsFalse" fullname="AzulTests.AzulEngineGrayBoxTests.HasFullPatternRows_PlayerWithNoRows_ReturnsFalse" methodname="HasFullPatternRows_PlayerWithNoRows_ReturnsFalse" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="256216664" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000189" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1086" name="HasFullPatternRows_PlayerWithOneFullRow_ReturnsTrue" fullname="AzulTests.AzulEngineGrayBoxTests.HasFullPatternRows_PlayerWithOneFullRow_ReturnsTrue" methodname="HasFullPatternRows_PlayerWithOneFullRow_ReturnsTrue" classname="AzulTests.AzulEngineGrayBoxTests" runstate="Runnable" seed="804911906" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000196" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1001" name="AzulEngineInitializeTests" fullname="AzulTests.AzulEngineInitializeTests" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.019566" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1011" name="Initialize_AllBoxCellsAreMinusOne" fullname="AzulTests.AzulEngineInitializeTests.Initialize_AllBoxCellsAreMinusOne" methodname="Initialize_AllBoxCellsAreMinusOne" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="54517273" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000746" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1015" name="Initialize_AllFactoriesStartEmpty" fullname="AzulTests.AzulEngineInitializeTests.Initialize_AllFactoriesStartEmpty" methodname="Initialize_AllFactoriesStartEmpty" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="849767351" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000270" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1009" name="Initialize_AllPatternColorsAreMinusOne" fullname="AzulTests.AzulEngineInitializeTests.Initialize_AllPatternColorsAreMinusOne" methodname="Initialize_AllPatternColorsAreMinusOne" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1628258942" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000349" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1010" name="Initialize_AllPatternCountsAreZero" fullname="AzulTests.AzulEngineInitializeTests.Initialize_AllPatternCountsAreZero" methodname="Initialize_AllPatternCountsAreZero" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1313810218" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000326" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1006" name="Initialize_BagContains20OfEachColor" fullname="AzulTests.AzulEngineInitializeTests.Initialize_BagContains20OfEachColor" methodname="Initialize_BagContains20OfEachColor" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1623423662" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000242" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1005" name="Initialize_FactoryCount_MatchesPlayerCount" fullname="AzulTests.AzulEngineInitializeTests.Initialize_FactoryCount_MatchesPlayerCount" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.007045" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="Initialize_FactoryCount_MatchesPlayerCount(2,5)" fullname="AzulTests.AzulEngineInitializeTests.Initialize_FactoryCount_MatchesPlayerCount(2,5)" methodname="Initialize_FactoryCount_MatchesPlayerCount" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1169768400" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000417" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="Initialize_FactoryCount_MatchesPlayerCount(3,7)" fullname="AzulTests.AzulEngineInitializeTests.Initialize_FactoryCount_MatchesPlayerCount(3,7)" methodname="Initialize_FactoryCount_MatchesPlayerCount" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="2031487320" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000145" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="Initialize_FactoryCount_MatchesPlayerCount(4,9)" fullname="AzulTests.AzulEngineInitializeTests.Initialize_FactoryCount_MatchesPlayerCount(4,9)" methodname="Initialize_FactoryCount_MatchesPlayerCount" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="156648024" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000095" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1014" name="Initialize_FirstPlayerTokenNotInCenter" fullname="AzulTests.AzulEngineInitializeTests.Initialize_FirstPlayerTokenNotInCenter" methodname="Initialize_FirstPlayerTokenNotInCenter" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1161446538" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000168" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1007" name="Initialize_LidIsEmpty" fullname="AzulTests.AzulEngineInitializeTests.Initialize_LidIsEmpty" methodname="Initialize_LidIsEmpty" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="1643747286" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000281" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1008" name="Initialize_PhaseIsRefill" fullname="AzulTests.AzulEngineInitializeTests.Initialize_PhaseIsRefill" methodname="Initialize_PhaseIsRefill" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="275444677" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000188" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1013" name="Initialize_PlayerActorNumbers_MatchSeats" fullname="AzulTests.AzulEngineInitializeTests.Initialize_PlayerActorNumbers_MatchSeats" methodname="Initialize_PlayerActorNumbers_MatchSeats" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="32054518" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000229" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1012" name="Initialize_RoundStartsAt1" fullname="AzulTests.AzulEngineInitializeTests.Initialize_RoundStartsAt1" methodname="Initialize_RoundStartsAt1" classname="AzulTests.AzulEngineInitializeTests" runstate="Runnable" seed="206206" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000170" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1016" name="AzulEngineRefillTests" fullname="AzulTests.AzulEngineRefillTests" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.020020" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1025" name="RefillAndBeginOffer_ActiveActorSetToStartPlayer" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_ActiveActorSetToStartPlayer" methodname="RefillAndBeginOffer_ActiveActorSetToStartPlayer" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="760774394" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000288" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1023" name="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_AllFactoriesFilledWith4Tiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.007003" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1020" name="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(2,5)" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(2,5)" methodname="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="2131244292" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000412" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(3,7)" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(3,7)" methodname="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="207676245" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000145" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(4,9)" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_AllFactoriesFilledWith4Tiles(4,9)" methodname="RefillAndBeginOffer_AllFactoriesFilledWith4Tiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="475056750" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000178" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1029" name="RefillAndBeginOffer_BagAndLidBothEmpty_FactoriesGetFewerTiles" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_BagAndLidBothEmpty_FactoriesGetFewerTiles" methodname="RefillAndBeginOffer_BagAndLidBothEmpty_FactoriesGetFewerTiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="1391683322" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000365" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1028" name="RefillAndBeginOffer_BagEmpty_DrawsFromLid" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_BagEmpty_DrawsFromLid" methodname="RefillAndBeginOffer_BagEmpty_DrawsFromLid" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="750024899" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000352" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1019" name="RefillAndBeginOffer_CenterIsEmpty" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_CenterIsEmpty" methodname="RefillAndBeginOffer_CenterIsEmpty" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="807881527" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000324" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1027" name="RefillAndBeginOffer_DrainsBagTiles" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_DrainsBagTiles" methodname="RefillAndBeginOffer_DrainsBagTiles" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="2116057308" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000338" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1018" name="RefillAndBeginOffer_FirstPlayerTokenPlacedInCenter" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_FirstPlayerTokenPlacedInCenter" methodname="RefillAndBeginOffer_FirstPlayerTokenPlacedInCenter" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="1070934864" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000336" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1026" name="RefillAndBeginOffer_IgnoredWhenPhaseIsNotRefillOrGameOver" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_IgnoredWhenPhaseIsNotRefillOrGameOver" methodname="RefillAndBeginOffer_IgnoredWhenPhaseIsNotRefillOrGameOver" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="826544688" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000368" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1017" name="RefillAndBeginOffer_PhaseBecomesFactoryOffer" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_PhaseBecomesFactoryOffer" methodname="RefillAndBeginOffer_PhaseBecomesFactoryOffer" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="2073797147" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000325" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1024" name="RefillAndBeginOffer_TilesAreValidColors" fullname="AzulTests.AzulEngineRefillTests.RefillAndBeginOffer_TilesAreValidColors" methodname="RefillAndBeginOffer_TilesAreValidColors" classname="AzulTests.AzulEngineRefillTests" runstate="Runnable" seed="305459029" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001227" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1197" name="CountCompletedRowsTests" fullname="AzulTests.CountCompletedRowsTests" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.010956" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1198" name="CountCompletedRows_EmptyBoard_Returns0" fullname="AzulTests.CountCompletedRowsTests.CountCompletedRows_EmptyBoard_Returns0" methodname="CountCompletedRows_EmptyBoard_Returns0" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" seed="1964744721" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000546" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1200" name="CountCompletedRows_FiveCompleteRows_Returns5" fullname="AzulTests.CountCompletedRowsTests.CountCompletedRows_FiveCompleteRows_Returns5" methodname="CountCompletedRows_FiveCompleteRows_Returns5" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" seed="543493423" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000293" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1199" name="CountCompletedRows_OneCompleteRow_Returns1" fullname="AzulTests.CountCompletedRowsTests.CountCompletedRows_OneCompleteRow_Returns1" methodname="CountCompletedRows_OneCompleteRow_Returns1" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" seed="587673808" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000257" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1201" name="CountCompletedRows_PartialRow4Of5_NotCounted" fullname="AzulTests.CountCompletedRowsTests.CountCompletedRows_PartialRow4Of5_NotCounted" methodname="CountCompletedRows_PartialRow4Of5_NotCounted" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" seed="756942791" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000273" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1202" name="CountCompletedRows_TwoCompleteAndThreePartial_Returns2" fullname="AzulTests.CountCompletedRowsTests.CountCompletedRows_TwoCompleteAndThreePartial_Returns2" methodname="CountCompletedRows_TwoCompleteAndThreePartial_Returns2" classname="AzulTests.CountCompletedRowsTests" runstate="Runnable" seed="1966577999" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000328" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1087" name="GrayBoxRuleTests" fullname="AzulTests.GrayBoxRuleTests" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.021933" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1091" name="CanPlace_AllColumnsConflicted_ReturnsFalse" fullname="AzulTests.GrayBoxRuleTests.CanPlace_AllColumnsConflicted_ReturnsFalse" methodname="CanPlace_AllColumnsConflicted_ReturnsFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="236601415" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.003393" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1092" name="CanPlace_CellOccupiedByDifferentColor_StillSkipped" fullname="AzulTests.GrayBoxRuleTests.CanPlace_CellOccupiedByDifferentColor_StillSkipped" methodname="CanPlace_CellOccupiedByDifferentColor_StillSkipped" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="453228731" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000299" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1090" name="CanPlace_ColorConflictInColumn_SkipsToFirstConflictFreeColumn" fullname="AzulTests.GrayBoxRuleTests.CanPlace_ColorConflictInColumn_SkipsToFirstConflictFreeColumn" methodname="CanPlace_ColorConflictInColumn_SkipsToFirstConflictFreeColumn" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="803979381" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000266" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1089" name="CanPlace_Column0Occupied_SkipsToFirstEmptyColumn" fullname="AzulTests.GrayBoxRuleTests.CanPlace_Column0Occupied_SkipsToFirstEmptyColumn" methodname="CanPlace_Column0Occupied_SkipsToFirstEmptyColumn" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="726429488" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000266" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1088" name="CanPlace_EmptyBoard_ReturnsTrueAtColumn0" fullname="AzulTests.GrayBoxRuleTests.CanPlace_EmptyBoard_ReturnsTrueAtColumn0" methodname="CanPlace_EmptyBoard_ReturnsTrueAtColumn0" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="374291237" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000227" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1093" name="CanPlace_SelectsFirstValidColumnNotFirstEmpty" fullname="AzulTests.GrayBoxRuleTests.CanPlace_SelectsFirstValidColumnNotFirstEmpty" methodname="CanPlace_SelectsFirstValidColumnNotFirstEmpty" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="640240034" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000220" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1101" name="GetValidColumns_AllColumnsConflicted_AllFalse" fullname="AzulTests.GrayBoxRuleTests.GetValidColumns_AllColumnsConflicted_AllFalse" methodname="GetValidColumns_AllColumnsConflicted_AllFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="575738300" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.003379" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1100" name="GetValidColumns_ColorConflictInColumn_ThatColumnFalse" fullname="AzulTests.GrayBoxRuleTests.GetValidColumns_ColorConflictInColumn_ThatColumnFalse" methodname="GetValidColumns_ColorConflictInColumn_ThatColumnFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="788162744" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000226" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1098" name="GetValidColumns_EmptyBoard_AllColumnsValid" fullname="AzulTests.GrayBoxRuleTests.GetValidColumns_EmptyBoard_AllColumnsValid" methodname="GetValidColumns_EmptyBoard_AllColumnsValid" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="81547366" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000302" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1102" name="GetValidColumns_KnownBoardState_MatchesExpectedResult" fullname="AzulTests.GrayBoxRuleTests.GetValidColumns_KnownBoardState_MatchesExpectedResult" methodname="GetValidColumns_KnownBoardState_MatchesExpectedResult" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="412021197" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000290" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1099" name="GetValidColumns_OccupiedCellInRow_ThatColumnFalse" fullname="AzulTests.GrayBoxRuleTests.GetValidColumns_OccupiedCellInRow_ThatColumnFalse" methodname="GetValidColumns_OccupiedCellInRow_ThatColumnFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="1151745269" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000262" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1097" name="RowHasColor_ColorInDifferentRow_ReturnsFalse" fullname="AzulTests.GrayBoxRuleTests.RowHasColor_ColorInDifferentRow_ReturnsFalse" methodname="RowHasColor_ColorInDifferentRow_ReturnsFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="421256304" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000302" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1096" name="RowHasColor_EmptyRow_ReturnsFalse" fullname="AzulTests.GrayBoxRuleTests.RowHasColor_EmptyRow_ReturnsFalse" methodname="RowHasColor_EmptyRow_ReturnsFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="645897762" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000220" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1095" name="RowHasColor_WhenColorAbsentFromRow_ReturnsFalse" fullname="AzulTests.GrayBoxRuleTests.RowHasColor_WhenColorAbsentFromRow_ReturnsFalse" methodname="RowHasColor_WhenColorAbsentFromRow_ReturnsFalse" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="1669851589" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000232" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1094" name="RowHasColor_WhenColorPresentInRow_ReturnsTrue" fullname="AzulTests.GrayBoxRuleTests.RowHasColor_WhenColorPresentInRow_ReturnsTrue" methodname="RowHasColor_WhenColorPresentInRow_ReturnsTrue" classname="AzulTests.GrayBoxRuleTests" runstate="Runnable" seed="1992624188" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000198" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1117" name="RNGNextIntTests" fullname="AzulTests.RNGNextIntTests" classname="AzulTests.RNGNextIntTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.009873" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1122" name="NextInt_AllValuesReachable_SmallRange" fullname="AzulTests.RNGNextIntTests.NextInt_AllValuesReachable_SmallRange" methodname="NextInt_AllValuesReachable_SmallRange" classname="AzulTests.RNGNextIntTests" runstate="Runnable" seed="2111263808" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000473" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1121" name="NextInt_LargeMax_NeverReturnsNegative" fullname="AzulTests.RNGNextIntTests.NextInt_LargeMax_NeverReturnsNegative" methodname="NextInt_LargeMax_NeverReturnsNegative" classname="AzulTests.RNGNextIntTests" runstate="Runnable" seed="1330322021" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000565" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1118" name="NextInt_Max1_AlwaysReturns0" fullname="AzulTests.RNGNextIntTests.NextInt_Max1_AlwaysReturns0" methodname="NextInt_Max1_AlwaysReturns0" classname="AzulTests.RNGNextIntTests" runstate="Runnable" seed="1974841834" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000385" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1119" name="NextInt_ResultAlwaysInRange" fullname="AzulTests.RNGNextIntTests.NextInt_ResultAlwaysInRange" methodname="NextInt_ResultAlwaysInRange" classname="AzulTests.RNGNextIntTests" runstate="Runnable" seed="210672501" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000670" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1120" name="NextInt_SameSeed_ProducesIdenticalSequence" fullname="AzulTests.RNGNextIntTests.NextInt_SameSeed_ProducesIdenticalSequence" methodname="NextInt_SameSeed_ProducesIdenticalSequence" classname="AzulTests.RNGNextIntTests" runstate="Runnable" seed="1909802347" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000288" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1103" name="RNGTests" fullname="AzulTests.RNGTests" classname="AzulTests.RNGTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.015045" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1112" name="DrawWeighted_AllColorsDrawnOverManyTrials" fullname="AzulTests.RNGTests.DrawWeighted_AllColorsDrawnOverManyTrials" methodname="DrawWeighted_AllColorsDrawnOverManyTrials" classname="AzulTests.RNGTests" runstate="Runnable" seed="1032569384" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000623" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1106" name="DrawWeighted_AllZeroCounts_ReturnsMinus1" fullname="AzulTests.RNGTests.DrawWeighted_AllZeroCounts_ReturnsMinus1" methodname="DrawWeighted_AllZeroCounts_ReturnsMinus1" classname="AzulTests.RNGTests" runstate="Runnable" seed="113346768" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000250" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1109" name="DrawWeighted_EmptiesBucket_WhenCalledWithCount1" fullname="AzulTests.RNGTests.DrawWeighted_EmptiesBucket_WhenCalledWithCount1" methodname="DrawWeighted_EmptiesBucket_WhenCalledWithCount1" classname="AzulTests.RNGTests" runstate="Runnable" seed="106954856" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000213" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1111" name="DrawWeighted_OnlyFirstBucketNonzero_ReturnsIndex0" fullname="AzulTests.RNGTests.DrawWeighted_OnlyFirstBucketNonzero_ReturnsIndex0" methodname="DrawWeighted_OnlyFirstBucketNonzero_ReturnsIndex0" classname="AzulTests.RNGTests" runstate="Runnable" seed="458216391" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000347" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1110" name="DrawWeighted_OnlyLastBucketNonzero_ReturnsIndex4" fullname="AzulTests.RNGTests.DrawWeighted_OnlyLastBucketNonzero_ReturnsIndex4" methodname="DrawWeighted_OnlyLastBucketNonzero_ReturnsIndex4" classname="AzulTests.RNGTests" runstate="Runnable" seed="2008872271" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000299" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1108" name="DrawWeighted_ReturnedIndex_IsWithinValidRange" fullname="AzulTests.RNGTests.DrawWeighted_ReturnedIndex_IsWithinValidRange" methodname="DrawWeighted_ReturnedIndex_IsWithinValidRange" classname="AzulTests.RNGTests" runstate="Runnable" seed="1906634600" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000493" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1107" name="DrawWeighted_SingleNonzeroBucket_AlwaysReturnsThatBucket" fullname="AzulTests.RNGTests.DrawWeighted_SingleNonzeroBucket_AlwaysReturnsThatBucket" methodname="DrawWeighted_SingleNonzeroBucket_AlwaysReturnsThatBucket" classname="AzulTests.RNGTests" runstate="Runnable" seed="1938374498" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000365" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1114" name="FromSerializedState_ZeroState_StillProducesValidSequence" fullname="AzulTests.RNGTests.FromSerializedState_ZeroState_StillProducesValidSequence" methodname="FromSerializedState_ZeroState_StillProducesValidSequence" classname="AzulTests.RNGTests" runstate="Runnable" seed="759563987" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000356" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1105" name="SeededRNG_DifferentSeeds_ProduceDifferentSequences" fullname="AzulTests.RNGTests.SeededRNG_DifferentSeeds_ProduceDifferentSequences" methodname="SeededRNG_DifferentSeeds_ProduceDifferentSequences" classname="AzulTests.RNGTests" runstate="Runnable" seed="1047454738" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000241" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1104" name="SeededRNG_ProducesIdenticalSequence_WhenCreatedWithSameSeed" fullname="AzulTests.RNGTests.SeededRNG_ProducesIdenticalSequence_WhenCreatedWithSameSeed" methodname="SeededRNG_ProducesIdenticalSequence_WhenCreatedWithSameSeed" classname="AzulTests.RNGTests" runstate="Runnable" seed="1393899604" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000554" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1116" name="SerializeState_DifferentPointsInSequence_ProduceDifferentValues" fullname="AzulTests.RNGTests.SerializeState_DifferentPointsInSequence_ProduceDifferentValues" methodname="SerializeState_DifferentPointsInSequence_ProduceDifferentValues" classname="AzulTests.RNGTests" runstate="Runnable" seed="1847377421" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001143" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1115" name="SerializeState_FreshRNG_CanBeRestoredBeforeAnyDraw" fullname="AzulTests.RNGTests.SerializeState_FreshRNG_CanBeRestoredBeforeAnyDraw" methodname="SerializeState_FreshRNG_CanBeRestoredBeforeAnyDraw" classname="AzulTests.RNGTests" runstate="Runnable" seed="124702747" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000342" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1113" name="SerializeState_ThenFromSerializedState_ResumesIdenticalSequence" fullname="AzulTests.RNGTests.SerializeState_ThenFromSerializedState_ResumesIdenticalSequence" methodname="SerializeState_ThenFromSerializedState_ResumesIdenticalSequence" classname="AzulTests.RNGTests" runstate="Runnable" seed="915057141" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000493" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1123" name="RoomPropsCodecTests" fullname="AzulTests.RoomPropsCodecTests" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" testcasecount="38" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.046994" total="38" passed="38" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1130" name="Encode_Decode_ActiveActorPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_ActiveActorPreserved" methodname="Encode_Decode_ActiveActorPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="681431199" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.003835" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1161" name="Encode_Decode_ActorNumbersPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_ActorNumbersPreserved" methodname="Encode_Decode_ActorNumbersPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="60114722" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000322" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1146" name="Encode_Decode_BagPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_BagPreserved" methodname="Encode_Decode_BagPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="2019303738" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000342" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1136" name="Encode_Decode_BaseOrderPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_BaseOrderPreserved" methodname="Encode_Decode_BaseOrderPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1876193320" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000239" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1156" name="Encode_Decode_BoxBits_DerivedFromBoxColors" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_BoxBits_DerivedFromBoxColors" methodname="Encode_Decode_BoxBits_DerivedFromBoxColors" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="973413226" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000254" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1154" name="Encode_Decode_BoxColorsPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_BoxColorsPreserved" methodname="Encode_Decode_BoxColorsPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="350506919" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000347" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1145" name="Encode_Decode_CenterPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_CenterPreserved" methodname="Encode_Decode_CenterPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="551481738" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000584" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1155" name="Encode_Decode_EmptyBoxCell_EncodesAs255" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyBoxCell_EncodesAs255" methodname="Encode_Decode_EmptyBoxCell_EncodesAs255" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="2099304589" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000413" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1163" name="Encode_Decode_EmptyFactories_AllSentinelState" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyFactories_AllSentinelState" methodname="Encode_Decode_EmptyFactories_AllSentinelState" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1106800366" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000324" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1143" name="Encode_Decode_EmptyFactory_DecodesEmpty" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyFactory_DecodesEmpty" methodname="Encode_Decode_EmptyFactory_DecodesEmpty" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1244914565" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000302" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1153" name="Encode_Decode_EmptyFloorSlots_EncodedAs255" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyFloorSlots_EncodedAs255" methodname="Encode_Decode_EmptyFloorSlots_EncodedAs255" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1683738543" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000347" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1150" name="Encode_Decode_EmptyPatternSlot_EncodesAs255" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyPatternSlot_EncodesAs255" methodname="Encode_Decode_EmptyPatternSlot_EncodesAs255" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="537462358" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000529" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1151" name="Encode_Decode_EmptyPatternSlot_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptyPatternSlot_Preserved" methodname="Encode_Decode_EmptyPatternSlot_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="613885475" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000274" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1144" name="Encode_Decode_EmptySlotSentinel255_NotIncludedInFactoryList" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_EmptySlotSentinel255_NotIncludedInFactoryList" methodname="Encode_Decode_EmptySlotSentinel255_NotIncludedInFactoryList" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1781791109" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000282" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1141" name="Encode_Decode_FactoryCountForPlayerCount" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryCountForPlayerCount" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.007307" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1138" name="Encode_Decode_FactoryCountForPlayerCount(2,5)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryCountForPlayerCount(2,5)" methodname="Encode_Decode_FactoryCountForPlayerCount" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="2055855067" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000378" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1139" name="Encode_Decode_FactoryCountForPlayerCount(3,7)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryCountForPlayerCount(3,7)" methodname="Encode_Decode_FactoryCountForPlayerCount" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="2088588515" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000188" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1140" name="Encode_Decode_FactoryCountForPlayerCount(4,9)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryCountForPlayerCount(4,9)" methodname="Encode_Decode_FactoryCountForPlayerCount" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="671641066" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000159" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1137" name="Encode_Decode_FactoryCountPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryCountPreserved" methodname="Encode_Decode_FactoryCountPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1728144215" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000256" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1142" name="Encode_Decode_FactoryTilesPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FactoryTilesPreserved" methodname="Encode_Decode_FactoryTilesPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1252317143" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000526" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1133" name="Encode_Decode_FirstInCenterFalse_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FirstInCenterFalse_Preserved" methodname="Encode_Decode_FirstInCenterFalse_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1164941444" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000238" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1132" name="Encode_Decode_FirstInCenterTrue_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FirstInCenterTrue_Preserved" methodname="Encode_Decode_FirstInCenterTrue_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1758672641" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000240" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1152" name="Encode_Decode_FloorTilesPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FloorTilesPreserved" methodname="Encode_Decode_FloorTilesPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1911610047" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000275" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1160" name="Encode_Decode_FourPlayers_AllScoresPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FourPlayers_AllScoresPreserved" methodname="Encode_Decode_FourPlayers_AllScoresPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="757449854" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000326" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1157" name="Encode_Decode_FullBoard_AllCellsPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_FullBoard_AllCellsPreserved" methodname="Encode_Decode_FullBoard_AllCellsPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="654089149" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000460" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1162" name="Encode_Decode_IdColorsPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_IdColorsPreserved" methodname="Encode_Decode_IdColorsPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1185505958" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000328" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1134" name="Encode_Decode_IsGrayBoxFalse_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_IsGrayBoxFalse_Preserved" methodname="Encode_Decode_IsGrayBoxFalse_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1861601468" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000203" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1135" name="Encode_Decode_IsGrayBoxTrue_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_IsGrayBoxTrue_Preserved" methodname="Encode_Decode_IsGrayBoxTrue_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="735082249" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000208" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1147" name="Encode_Decode_LidPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_LidPreserved" methodname="Encode_Decode_LidPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1109828866" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000252" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1149" name="Encode_Decode_PatternColorsPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PatternColorsPreserved" methodname="Encode_Decode_PatternColorsPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="17137757" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000280" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1128" name="Encode_Decode_PhasePreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PhasePreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.007770" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1124" name="Encode_Decode_PhasePreserved(FactoryOffer)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PhasePreserved(FactoryOffer)" methodname="Encode_Decode_PhasePreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="651871484" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000579" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1125" name="Encode_Decode_PhasePreserved(BoxTiling)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PhasePreserved(BoxTiling)" methodname="Encode_Decode_PhasePreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="874113195" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000177" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1126" name="Encode_Decode_PhasePreserved(Refill)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PhasePreserved(Refill)" methodname="Encode_Decode_PhasePreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="2041558374" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000170" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1127" name="Encode_Decode_PhasePreserved(GameOver)" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_PhasePreserved(GameOver)" methodname="Encode_Decode_PhasePreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="510250971" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000402" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1158" name="Encode_Decode_RngStateNonzero_Preserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_RngStateNonzero_Preserved" methodname="Encode_Decode_RngStateNonzero_Preserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1381071972" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000321" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1129" name="Encode_Decode_RoundPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_RoundPreserved" methodname="Encode_Decode_RoundPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1738094249" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000266" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1148" name="Encode_Decode_ScoresPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_ScoresPreserved" methodname="Encode_Decode_ScoresPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="525694734" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000302" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1131" name="Encode_Decode_StartActorPreserved" fullname="AzulTests.RoomPropsCodecTests.Encode_Decode_StartActorPreserved" methodname="Encode_Decode_StartActorPreserved" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="1594901803" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000228" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1159" name="Encode_RngStateZero_NotIncludedInProps" fullname="AzulTests.RoomPropsCodecTests.Encode_RngStateZero_NotIncludedInProps" methodname="Encode_RngStateZero_NotIncludedInProps" classname="AzulTests.RoomPropsCodecTests" runstate="Runnable" seed="693285386" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000245" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1164" name="ScoringTests" fullname="AzulTests.ScoringTests" classname="AzulTests.ScoringTests" runstate="Runnable" testcasecount="32" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.025814" total="32" passed="32" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1192" name="DetermineWinners_EmptyArray_ReturnsEmptyList" fullname="AzulTests.ScoringTests.DetermineWinners_EmptyArray_ReturnsEmptyList" methodname="DetermineWinners_EmptyArray_ReturnsEmptyList" classname="AzulTests.ScoringTests" runstate="Runnable" seed="994951595" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000721" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1190" name="DetermineWinners_FullTie_ReturnsBothActors" fullname="AzulTests.ScoringTests.DetermineWinners_FullTie_ReturnsBothActors" methodname="DetermineWinners_FullTie_ReturnsBothActors" classname="AzulTests.ScoringTests" runstate="Runnable" seed="657927582" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.002150" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1193" name="DetermineWinners_NullArray_ReturnsEmptyList" fullname="AzulTests.ScoringTests.DetermineWinners_NullArray_ReturnsEmptyList" methodname="DetermineWinners_NullArray_ReturnsEmptyList" classname="AzulTests.ScoringTests" runstate="Runnable" seed="391000617" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000192" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1188" name="DetermineWinners_SingleLeader_ReturnsThatActorOnly" fullname="AzulTests.ScoringTests.DetermineWinners_SingleLeader_ReturnsThatActorOnly" methodname="DetermineWinners_SingleLeader_ReturnsThatActorOnly" classname="AzulTests.ScoringTests" runstate="Runnable" seed="300247237" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000299" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1191" name="DetermineWinners_ThreePlayers_TiebreakPicksHigherRows" fullname="AzulTests.ScoringTests.DetermineWinners_ThreePlayers_TiebreakPicksHigherRows" methodname="DetermineWinners_ThreePlayers_TiebreakPicksHigherRows" classname="AzulTests.ScoringTests" runstate="Runnable" seed="840391464" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000493" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1189" name="DetermineWinners_TiebreakByRows_PlayerWithMoreRowsWins" fullname="AzulTests.ScoringTests.DetermineWinners_TiebreakByRows_PlayerWithMoreRowsWins" methodname="DetermineWinners_TiebreakByRows_PlayerWithMoreRowsWins" classname="AzulTests.ScoringTests" runstate="Runnable" seed="928390767" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000298" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1195" name="EndGameBonusColors_AllFiveColorSets_Returns50" fullname="AzulTests.ScoringTests.EndGameBonusColors_AllFiveColorSets_Returns50" methodname="EndGameBonusColors_AllFiveColorSets_Returns50" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1100097346" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000569" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1186" name="EndGameBonusColors_NoCompleteColorSet_Returns0" fullname="AzulTests.ScoringTests.EndGameBonusColors_NoCompleteColorSet_Returns0" methodname="EndGameBonusColors_NoCompleteColorSet_Returns0" classname="AzulTests.ScoringTests" runstate="Runnable" seed="406386352" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000387" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1187" name="EndGameBonusColors_OneCompleteColorSet_Returns10" fullname="AzulTests.ScoringTests.EndGameBonusColors_OneCompleteColorSet_Returns10" methodname="EndGameBonusColors_OneCompleteColorSet_Returns10" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1828973629" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000392" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1196" name="EndGameBonusColors_StandardBoxMap_DiagonalCompletesOneColor" fullname="AzulTests.ScoringTests.EndGameBonusColors_StandardBoxMap_DiagonalCompletesOneColor" methodname="EndGameBonusColors_StandardBoxMap_DiagonalCompletesOneColor" classname="AzulTests.ScoringTests" runstate="Runnable" seed="2047007850" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000483" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1194" name="EndGameBonusColors_TwoCompleteColorSets_Returns20" fullname="AzulTests.ScoringTests.EndGameBonusColors_TwoCompleteColorSets_Returns20" methodname="EndGameBonusColors_TwoCompleteColorSets_Returns20" classname="AzulTests.ScoringTests" runstate="Runnable" seed="619795941" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000406" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1184" name="EndGameBonusCols_FiveCompleteCols_Returns35" fullname="AzulTests.ScoringTests.EndGameBonusCols_FiveCompleteCols_Returns35" methodname="EndGameBonusCols_FiveCompleteCols_Returns35" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1507860532" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000232" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1182" name="EndGameBonusCols_NoCompleteCols_Returns0" fullname="AzulTests.ScoringTests.EndGameBonusCols_NoCompleteCols_Returns0" methodname="EndGameBonusCols_NoCompleteCols_Returns0" classname="AzulTests.ScoringTests" runstate="Runnable" seed="835343347" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000200" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1183" name="EndGameBonusCols_OneCompleteCol_Returns7" fullname="AzulTests.ScoringTests.EndGameBonusCols_OneCompleteCol_Returns7" methodname="EndGameBonusCols_OneCompleteCol_Returns7" classname="AzulTests.ScoringTests" runstate="Runnable" seed="402892036" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000226" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1185" name="EndGameBonusCols_PartialColNotCounted" fullname="AzulTests.ScoringTests.EndGameBonusCols_PartialColNotCounted" methodname="EndGameBonusCols_PartialColNotCounted" classname="AzulTests.ScoringTests" runstate="Runnable" seed="2102307189" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000228" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1180" name="EndGameBonusRows_FiveCompleteRows_Returns10" fullname="AzulTests.ScoringTests.EndGameBonusRows_FiveCompleteRows_Returns10" methodname="EndGameBonusRows_FiveCompleteRows_Returns10" classname="AzulTests.ScoringTests" runstate="Runnable" seed="232945118" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000200" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1178" name="EndGameBonusRows_NoCompleteRows_Returns0" fullname="AzulTests.ScoringTests.EndGameBonusRows_NoCompleteRows_Returns0" methodname="EndGameBonusRows_NoCompleteRows_Returns0" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1613458667" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000216" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1179" name="EndGameBonusRows_OneCompleteRow_Returns2" fullname="AzulTests.ScoringTests.EndGameBonusRows_OneCompleteRow_Returns2" methodname="EndGameBonusRows_OneCompleteRow_Returns2" classname="AzulTests.ScoringTests" runstate="Runnable" seed="623141412" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000225" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1181" name="EndGameBonusRows_PartialRowNotCounted" fullname="AzulTests.ScoringTests.EndGameBonusRows_PartialRowNotCounted" methodname="EndGameBonusRows_PartialRowNotCounted" classname="AzulTests.ScoringTests" runstate="Runnable" seed="406522962" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000224" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1176" name="ScoreFloor_FirstPlayerTokenCountsAsSlot" fullname="AzulTests.ScoringTests.ScoreFloor_FirstPlayerTokenCountsAsSlot" methodname="ScoreFloor_FirstPlayerTokenCountsAsSlot" classname="AzulTests.ScoringTests" runstate="Runnable" seed="2011733637" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000177" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1177" name="ScoreFloor_FiveTiles_ReturnsMinus8" fullname="AzulTests.ScoringTests.ScoreFloor_FiveTiles_ReturnsMinus8" methodname="ScoreFloor_FiveTiles_ReturnsMinus8" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1564267626" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000211" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1172" name="ScoreFloor_NoTiles_Returns0" fullname="AzulTests.ScoringTests.ScoreFloor_NoTiles_Returns0" methodname="ScoreFloor_NoTiles_Returns0" classname="AzulTests.ScoringTests" runstate="Runnable" seed="877743323" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000173" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1173" name="ScoreFloor_OneTile_ReturnsMinus1" fullname="AzulTests.ScoringTests.ScoreFloor_OneTile_ReturnsMinus1" methodname="ScoreFloor_OneTile_ReturnsMinus1" classname="AzulTests.ScoringTests" runstate="Runnable" seed="38972628" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000197" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1175" name="ScoreFloor_SevenTiles_ReturnsMinus14" fullname="AzulTests.ScoringTests.ScoreFloor_SevenTiles_ReturnsMinus14" methodname="ScoreFloor_SevenTiles_ReturnsMinus14" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1754148269" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000199" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1174" name="ScoreFloor_ThreeTiles_ReturnsMinus4" fullname="AzulTests.ScoringTests.ScoreFloor_ThreeTiles_ReturnsMinus4" methodname="ScoreFloor_ThreeTiles_ReturnsMinus4" classname="AzulTests.ScoringTests" runstate="Runnable" seed="106355766" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000191" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1170" name="ScorePlacement_FullColumn5_Returns5" fullname="AzulTests.ScoringTests.ScorePlacement_FullColumn5_Returns5" methodname="ScorePlacement_FullColumn5_Returns5" classname="AzulTests.ScoringTests" runstate="Runnable" seed="854839898" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000247" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1169" name="ScorePlacement_FullRow5_Returns5" fullname="AzulTests.ScoringTests.ScorePlacement_FullRow5_Returns5" methodname="ScorePlacement_FullRow5_Returns5" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1700347850" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000250" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1166" name="ScorePlacement_HorizontalRunOf3_Returns3" fullname="AzulTests.ScoringTests.ScorePlacement_HorizontalRunOf3_Returns3" methodname="ScorePlacement_HorizontalRunOf3_Returns3" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1236375971" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000257" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1165" name="ScorePlacement_IsolatedTile_Returns1" fullname="AzulTests.ScoringTests.ScorePlacement_IsolatedTile_Returns1" methodname="ScorePlacement_IsolatedTile_Returns1" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1185406575" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000238" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1171" name="ScorePlacement_LargeL_Returns10" fullname="AzulTests.ScoringTests.ScorePlacement_LargeL_Returns10" methodname="ScorePlacement_LargeL_Returns10" classname="AzulTests.ScoringTests" runstate="Runnable" seed="373806857" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000275" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1168" name="ScorePlacement_LShapeBothHorizontalAndVertical_ReturnsSumOfBothRuns" fullname="AzulTests.ScoringTests.ScorePlacement_LShapeBothHorizontalAndVertical_ReturnsSumOfBothRuns" methodname="ScorePlacement_LShapeBothHorizontalAndVertical_ReturnsSumOfBothRuns" classname="AzulTests.ScoringTests" runstate="Runnable" seed="826425554" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000232" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1167" name="ScorePlacement_VerticalRunOf3_Returns3" fullname="AzulTests.ScoringTests.ScorePlacement_VerticalRunOf3_Returns3" methodname="ScorePlacement_VerticalRunOf3_Returns3" classname="AzulTests.ScoringTests" runstate="Runnable" seed="1131907625" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000237" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1224" name="StandardBoxMapTests" fullname="AzulTests.StandardBoxMapTests" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.025005" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1235" name="ColorAtCell_AllCellsInColumn_HasEachColorExactlyOnce" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_AllCellsInColumn_HasEachColorExactlyOnce" methodname="ColorAtCell_AllCellsInColumn_HasEachColorExactlyOnce" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="328851692" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000405" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1234" name="ColorAtCell_AllCellsInRow_HasEachColorExactlyOnce" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_AllCellsInRow_HasEachColorExactlyOnce" methodname="ColorAtCell_AllCellsInRow_HasEachColorExactlyOnce" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="735688759" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000429" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1233" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.008731" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1225" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,0,0)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,0,0)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="2053335129" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000449" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1226" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,1,1)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,1,1)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="289928963" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000129" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1227" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,4,4)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(0,4,4)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="601701171" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1228" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(1,0,4)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(1,0,4)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="1711899468" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000118" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1229" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(1,1,0)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(1,1,0)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="266868789" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000085" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1230" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(2,2,0)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(2,2,0)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="1008269963" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000107" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1231" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(3,1,3)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(3,1,3)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="160816610" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000093" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1232" name="ColorAtCell_KnownRowCol_ReturnsCorrectColor(4,0,1)" fullname="AzulTests.StandardBoxMapTests.ColorAtCell_KnownRowCol_ReturnsCorrectColor(4,0,1)" methodname="ColorAtCell_KnownRowCol_ReturnsCorrectColor" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="298110546" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000110" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1241" name="ColumnFor_AndColorAtCell_AreConsistent" fullname="AzulTests.StandardBoxMapTests.ColumnFor_AndColorAtCell_AreConsistent" methodname="ColumnFor_AndColorAtCell_AreConsistent" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="854913091" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000554" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1240" name="ColumnFor_KnownRowColor_ReturnsCorrectColumn" fullname="AzulTests.StandardBoxMapTests.ColumnFor_KnownRowColor_ReturnsCorrectColumn" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.007329" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1236" name="ColumnFor_KnownRowColor_ReturnsCorrectColumn(0,0,0)" fullname="AzulTests.StandardBoxMapTests.ColumnFor_KnownRowColor_ReturnsCorrectColumn(0,0,0)" methodname="ColumnFor_KnownRowColor_ReturnsCorrectColumn" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="1546702179" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000333" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1237" name="ColumnFor_KnownRowColor_ReturnsCorrectColumn(0,1,1)" fullname="AzulTests.StandardBoxMapTests.ColumnFor_KnownRowColor_ReturnsCorrectColumn(0,1,1)" methodname="ColumnFor_KnownRowColor_ReturnsCorrectColumn" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="899341212" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1238" name="ColumnFor_KnownRowColor_ReturnsCorrectColumn(4,1,0)" fullname="AzulTests.StandardBoxMapTests.ColumnFor_KnownRowColor_ReturnsCorrectColumn(4,1,0)" methodname="ColumnFor_KnownRowColor_ReturnsCorrectColumn" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="1740176757" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000078" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1239" name="ColumnFor_KnownRowColor_ReturnsCorrectColumn(3,3,1)" fullname="AzulTests.StandardBoxMapTests.ColumnFor_KnownRowColor_ReturnsCorrectColumn(3,3,1)" methodname="ColumnFor_KnownRowColor_ReturnsCorrectColumn" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="1430119018" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1242" name="ColumnFor_NonDefaultBaseOrder_UsesCorrectIndex" fullname="AzulTests.StandardBoxMapTests.ColumnFor_NonDefaultBaseOrder_UsesCorrectIndex" methodname="ColumnFor_NonDefaultBaseOrder_UsesCorrectIndex" classname="AzulTests.StandardBoxMapTests" runstate="Runnable" seed="850671878" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000205" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="TestFixture" id="1203" name="StandardBoxRuleTests" fullname="AzulTests.StandardBoxRuleTests" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.028821" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1216" name="CanPlace_AllFiveColorsRow0_MapsToDistinctColumns" fullname="AzulTests.StandardBoxRuleTests.CanPlace_AllFiveColorsRow0_MapsToDistinctColumns" methodname="CanPlace_AllFiveColorsRow0_MapsToDistinctColumns" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1971853930" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001665" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1217" name="CanPlace_AllFiveColorsRow2_MapsToDistinctColumns" fullname="AzulTests.StandardBoxRuleTests.CanPlace_AllFiveColorsRow2_MapsToDistinctColumns" methodname="CanPlace_AllFiveColorsRow2_MapsToDistinctColumns" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1437965055" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000465" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1215" name="CanPlace_DifferentColorOccupiesTargetCell_ReturnsFalse" fullname="AzulTests.StandardBoxRuleTests.CanPlace_DifferentColorOccupiesTargetCell_ReturnsFalse" methodname="CanPlace_DifferentColorOccupiesTargetCell_ReturnsFalse" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="661543091" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000322" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="1213" name="CanPlace_EmptyCell_ReturnsCorrectColumn" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.010656" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1204" name="CanPlace_EmptyCell_ReturnsCorrectColumn(0,0,0)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(0,0,0)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1056706736" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000395" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1205" name="CanPlace_EmptyCell_ReturnsCorrectColumn(0,1,1)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(0,1,1)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="991423229" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000137" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1206" name="CanPlace_EmptyCell_ReturnsCorrectColumn(0,4,4)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(0,4,4)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="236208395" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000117" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1207" name="CanPlace_EmptyCell_ReturnsCorrectColumn(1,0,1)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(1,0,1)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="598436594" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000114" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1208" name="CanPlace_EmptyCell_ReturnsCorrectColumn(1,4,0)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(1,4,0)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="370358814" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000114" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1209" name="CanPlace_EmptyCell_ReturnsCorrectColumn(4,0,4)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(4,0,4)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="2085425822" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000111" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1210" name="CanPlace_EmptyCell_ReturnsCorrectColumn(4,1,0)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(4,1,0)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1313562537" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000107" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1211" name="CanPlace_EmptyCell_ReturnsCorrectColumn(3,3,1)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(3,3,1)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="377587208" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000113" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1212" name="CanPlace_EmptyCell_ReturnsCorrectColumn(2,2,4)" fullname="AzulTests.StandardBoxRuleTests.CanPlace_EmptyCell_ReturnsCorrectColumn(2,2,4)" methodname="CanPlace_EmptyCell_ReturnsCorrectColumn" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="182523216" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000119" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-case id="1214" name="CanPlace_OccupiedCell_ReturnsFalse" fullname="AzulTests.StandardBoxRuleTests.CanPlace_OccupiedCell_ReturnsFalse" methodname="CanPlace_OccupiedCell_ReturnsFalse" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1878903099" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000300" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1222" name="Constructor_NullBaseOrder_ThrowsArgumentException" fullname="AzulTests.StandardBoxRuleTests.Constructor_NullBaseOrder_ThrowsArgumentException" methodname="Constructor_NullBaseOrder_ThrowsArgumentException" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1180721999" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.001667" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1223" name="Constructor_WrongLengthBaseOrder_ThrowsArgumentException" fullname="AzulTests.StandardBoxRuleTests.Constructor_WrongLengthBaseOrder_ThrowsArgumentException" methodname="Constructor_WrongLengthBaseOrder_ThrowsArgumentException" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="561338691" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000346" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1221" name="RowHasColor_ColorInDifferentRow_ReturnsFalse" fullname="AzulTests.StandardBoxRuleTests.RowHasColor_ColorInDifferentRow_ReturnsFalse" methodname="RowHasColor_ColorInDifferentRow_ReturnsFalse" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="1500707585" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000208" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1220" name="RowHasColor_DifferentColorAtTargetCell_StillReturnsTrue" fullname="AzulTests.StandardBoxRuleTests.RowHasColor_DifferentColorAtTargetCell_StillReturnsTrue" methodname="RowHasColor_DifferentColorAtTargetCell_StillReturnsTrue" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="358482349" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000253" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1218" name="RowHasColor_WhenColorNotPlacedInRow_ReturnsFalse" fullname="AzulTests.StandardBoxRuleTests.RowHasColor_WhenColorNotPlacedInRow_ReturnsFalse" methodname="RowHasColor_WhenColorNotPlacedInRow_ReturnsFalse" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="171927215" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000180" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1219" name="RowHasColor_WhenTargetCellOccupied_ReturnsTrue" fullname="AzulTests.StandardBoxRuleTests.RowHasColor_WhenTargetCellOccupied_ReturnsTrue" methodname="RowHasColor_WhenTargetCellOccupied_ReturnsTrue" classname="AzulTests.StandardBoxRuleTests" runstate="Runnable" seed="277968986" result="Passed" start-time="2026-05-11 19:29:56Z" end-time="2026-05-11 19:29:56Z" duration="0.000196" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[Saving results to: C:/Users/balas/AppData/LocalLow/DefaultCompany/Azul\TestResults.xml
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

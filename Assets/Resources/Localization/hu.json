@@ -1,0 +1,177 @@
+{
+  "common": {
+    "entries": [
+      { "key": "ok", "value": "Rendben" },
+      { "key": "cancel", "value": "Mégse" },
+      { "key": "close", "value": "Bezár" },
+      { "key": "back", "value": "Vissza" },
+      { "key": "next", "value": "Következő" },
+      { "key": "yes", "value": "Igen" },
+      { "key": "no", "value": "Nem" },
+      { "key": "loading", "value": "Betöltés..." },
+      { "key": "players", "value": "Játékosok" },
+      { "key": "score", "value": "Pontszám" },
+      { "key": "exit", "value": "Kilépés" },
+      { "key": "exitConfirmation", "value": "Biztosan ki akarsz lépni a játékból?" }
+    ]
+  },
+  "connection": {
+    "entries": [
+      { "key": "title", "value": "Azul - Csokoládé Mester" },
+      { "key": "playerName", "value": "Játékosnév" },
+      { "key": "connect", "value": "Csatlakozás" },
+      { "key": "statusLabel", "value": "Kapcsolat állapota:" },
+      { "key": "connecting", "value": "Csatlakozás..." },
+      { "key": "connected", "value": "Csatlakozva!" },
+      { "key": "disconnected", "value": "Lecsatlakozva" },
+      { "key": "disconnectedReason", "value": "Kapcsolat megszakadt: {0}" },
+      { "key": "enterName", "value": "Kérlek add meg a neved" }
+    ]
+  },
+  "lobby": {
+    "entries": [
+      { "key": "title", "value": "Váróterem" },
+      { "key": "roomName", "value": "Szoba neve (opcionális)..." },
+      { "key": "createRoom", "value": "Szoba létrehozása" },
+      { "key": "privateRoom", "value": "Privát Szoba" },
+      { "key": "joinRandom", "value": "Véletlenszerű csatlakozás" },
+      { "key": "browseRooms", "value": "Szobák böngészése" },
+      { "key": "roomCode", "value": "Szoba kód megadása..." },
+      { "key": "joinByCode", "value": "Csatlakozás kóddal" },
+      { "key": "enterRoomCode", "value": "Kérlek adj meg egy szoba kódot" }
+    ]
+  },
+  "roomBrowser": {
+    "entries": [
+      { "key": "title", "value": "Elérhető szobák" },
+      { "key": "emptyList", "value": "Nincsenek elérhető szobák. Hozz létre egyet!" },
+      { "key": "joinSelected", "value": "Csatlakozás választotthoz" },
+      { "key": "refresh", "value": "Frissítés" },
+      { "key": "backToLobby", "value": "Vissza a váróterembe" },
+      { "key": "playerCount", "value": "{0}/{1}" },
+      { "key": "grayVariant", "value": "[Haladó]" },
+      { "key": "timerEnabled", "value": "[Időzítő: {0}mp]" },
+      { "key": "standard", "value": "[Normál]" },
+      { "key": "inProgress", "value": "[FOLYAMATBAN]" }
+    ]
+  },
+  "room": {
+    "entries": [
+      { "key": "roomLabel", "value": "Szoba: {0}" },
+      { "key": "roomName", "value": "Szoba: {0}" },
+      { "key": "roomCode", "value": "Szoba kód: {0}" },
+      { "key": "copied", "value": "Másolva!" },
+      { "key": "confirmStart", "value": "Elindítod a játékot {0} játékossal?" },
+      { "key": "leave", "value": "Kilépés" },
+      { "key": "leaveRoom", "value": "Kilépés" },
+      { "key": "playersTitle", "value": "Játékosok:" },
+      { "key": "configTitle", "value": "Játék beállítások (csak házigazda):" },
+      { "key": "grayBox", "value": "Haladó változat" },
+      { "key": "maxPlayers", "value": "Max. játékosok:" },
+      { "key": "turnTimer", "value": "Kör időzítő (mp, 0=ki):" },
+      { "key": "startGame", "value": "JÁTÉK INDÍTÁSA" },
+      { "key": "host", "value": "[HÁZIGAZDA]" },
+      { "key": "pattern2", "value": "2 játékos" },
+      { "key": "pattern3", "value": "3 játékos" },
+      { "key": "pattern4", "value": "4 játékos" }
+    ]
+  },
+  "game": {
+    "entries": [
+      { "key": "yourTurn", "value": "Te következel" },
+      { "key": "waiting", "value": "Várakozás {0} körére..." },
+      { "key": "drafting", "value": "Csempék gyűjtése" },
+      { "key": "tiling", "value": "Csempézés" },
+      { "key": "refilling", "value": "Újratöltés" },
+      { "key": "gameOver", "value": "Játék vége" },
+      { "key": "phaseDrafting", "value": "Csempék gyűjtése" },
+      { "key": "phaseTiling", "value": "Csempézés" },
+      { "key": "phaseRefilling", "value": "Újratöltés" },
+      { "key": "phaseGameOver", "value": "Játék vége" },
+      { "key": "round", "value": "Forduló: {0}" },
+      { "key": "roundPhase", "value": "{0}. forduló, {1}" },
+      { "key": "phase", "value": "Fázis: {0}" },
+      { "key": "score", "value": "Pontszám: {0}" },
+      { "key": "timeUp", "value": "LEJÁRT AZ IDŐ!" }
+    ]
+  },
+  "playerBoard": {
+    "entries": [
+      { "key": "select", "value": "Kiválaszt" },
+      { "key": "patternLine", "value": "{0}/{1}" },
+      { "key": "floor", "value": "Padló: {0}" },
+      { "key": "boardOwner", "value": "{0}" },
+      { "key": "score", "value": "Pontszám: {0}" },
+      { "key": "active", "value": "◄ AKTÍV" },
+      { "key": "hintDraft", "value": "Te következel! Válassz csempéket a manufaktúrákról, vagy a középről." },
+      { "key": "hintFirst", "value": "Te következel! Válassz csempéket. Az első játékos zseton középen van!" },
+      { "key": "hintTiling", "value": "Pontozás..." }
+    ]
+  },
+  "endGame": {
+    "entries": [
+      { "key": "title", "value": "🏆 {0} GYŐZÖTT! 🏆" },
+      { "key": "titleTie", "value": "🏆 DÖNTETLEN! {0} NYERTEK! 🏆" },
+      { "key": "titleTieGeneral", "value": "🏆 DÖNTETLEN! 🏆" },
+      { "key": "titleVictory", "value": "🏆 GYŐZELEM! 🏆" },
+      { "key": "finalScore", "value": "Pontszám: {0}" },
+      { "key": "bonuses", "value": "Bónuszok:" },
+      { "key": "bonusRows", "value": "  Sorok: +{0}" },
+      { "key": "bonusCols", "value": "  Oszlopok: +{0}" },
+      { "key": "bonusColors", "value": "  Színkészletek: +{0}" },
+      { "key": "bonusNone", "value": "  Nincs" },
+      { "key": "rank1st", "value": "1." },
+      { "key": "rank2nd", "value": "2." },
+      { "key": "rank3rd", "value": "3." },
+      { "key": "rank4th", "value": "4." },
+      { "key": "newGame", "value": "Új játék" },
+      { "key": "returnToLobby", "value": "Vissza a váróterembe" },
+      { "key": "confirmNewGame", "value": "Új játékot indítasz {0}-val?" },
+      { "key": "confirmReturn", "value": "Visszatérsz a főmenübe?" }
+    ]
+  },
+  "rules": {
+    "entries": [
+      { "key": "title", "value": "Játékszabályok" },
+      { "key": "closeButton", "value": "Bezár" },
+      { "key": "objective", "value": "Cél" },
+      { "key": "objectiveText", "value": "Pontokat szerzel vízszintes sorok befejezésével a faladon. A játék akkor ér véget, amikor bármelyik játékos teljesít egy vízszintes sort." },
+      { "key": "setup", "value": "Felállítás" },
+      { "key": "setupText", "value": "Minden játékosnak van egy mintatáblája 5 sorral (1-5 hely) és egy 5x5-ös fal rács. A gyárakat 4 véletlenszerű csempével töltik fel." },
+      { "key": "gameplay", "value": "Játékmenet" },
+      { "key": "gameplayText", "value": "A köröd alatt:\n1. Válaszd ki az ÖSSZES egy színű csempét egy gyárból vagy a középről\n2. Helyezd őket az egyik mintasorodba\n3. A fölösleges csempék a padlóra kerülnek (büntetések!)\n4. Amikor minden csempe elvégzett, pontozzátok és töltsétek újra" },
+      { "key": "scoring", "value": "Pontozás" },
+      { "key": "scoringText", "value": "A teljes mintasorok a falra kerülnek:\n• 1 pont + szomszédos csempék\n• Vízszintes és függőleges szomszédságok számítanak\n• Padló büntetések: -1 től -3 pontig csempénként" },
+      { "key": "bonuses", "value": "Játék végi bónuszok" },
+      { "key": "bonusesText", "value": "• Teljes vízszintes sor: +2\n• Teljes függőleges oszlop: +7\n• Mind az 5 egy színből: +10" },
+      { "key": "strategy", "value": "Stratégiai tippek" },
+      { "key": "strategyText", "value": "• Tervezz nagy pontozású csempeelhelyezéseket\n• Kerüld a padló büntetéseket\n• Figyeld mit akarnak az ellenfelek\n• Stratégiailag szerezd meg az első játékos žetont" }
+    ]
+  },
+  "settings": {
+    "entries": [
+      { "key": "title", "value": "Beállítások" },
+      { "key": "language", "value": "Nyelv" },
+      { "key": "volume", "value": "Hangerő" },
+      { "key": "apply", "value": "Alkalmaz" }
+    ]
+  },
+  "errors": {
+    "entries": [
+      { "key": "connectionFailed", "value": "Kapcsolódás sikertelen: {0}" },
+      { "key": "createRoomFailed", "value": "Szoba létrehozása sikertelen: {0}" },
+      { "key": "joinRoomFailed", "value": "Csatlakozás sikertelen: {0}" },
+      { "key": "noRoomSelected", "value": "Nincs kiválasztott szoba" },
+      { "key": "roomFull", "value": "A szoba megtelt" },
+      { "key": "roomClosed", "value": "A szoba zárva" },
+      { "key": "notYourTurn", "value": "Nem te következel! Aktív játékos: {0}" },
+      { "key": "invalidMove", "value": "Érvénytelen lépés" },
+      { "key": "hostOnly", "value": "Csak a házigazda indíthatja a játékot" }
+    ]
+  },
+  "help": {
+    "entries": [
+      { "key": "gameOverTooltip", "value": "Játék vége - Végső pontszámok és bónuszok megtekintése" }
+    ]
+  }
+}

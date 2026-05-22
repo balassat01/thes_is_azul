@@ -1,0 +1,177 @@
+{
+  "common": {
+    "entries": [
+      { "key": "ok", "value": "OK" },
+      { "key": "cancel", "value": "Cancel" },
+      { "key": "close", "value": "Close" },
+      { "key": "back", "value": "Back" },
+      { "key": "next", "value": "Next" },
+      { "key": "yes", "value": "Yes" },
+      { "key": "no", "value": "No" },
+      { "key": "loading", "value": "Loading..." },
+      { "key": "players", "value": "Players" },
+      { "key": "score", "value": "Score" },
+      { "key": "exit", "value": "Exit" },
+      { "key": "exitConfirmation", "value": "Are you sure you want to quit the game?" }
+    ]
+  },
+  "connection": {
+    "entries": [
+      { "key": "title", "value": "Azul - Master Chocolatier" },
+      { "key": "playerName", "value": "Nickname" },
+      { "key": "connect", "value": "Connect" },
+      { "key": "statusLabel", "value": "Connection status:" },
+      { "key": "connecting", "value": "Connecting..." },
+      { "key": "connected", "value": "Connected!" },
+      { "key": "disconnected", "value": "Disconnected" },
+      { "key": "disconnectedReason", "value": "Disconnected: {0}" },
+      { "key": "enterName", "value": "Please enter a name" }
+    ]
+  },
+  "lobby": {
+    "entries": [
+      { "key": "title", "value": "Lobby" },
+      { "key": "roomName", "value": "Room name (optional)..." },
+      { "key": "createRoom", "value": "Create Room" },
+      { "key": "privateRoom", "value": "Private Room" },
+      { "key": "joinRandom", "value": "Join Random Room" },
+      { "key": "browseRooms", "value": "Browse Rooms" },
+      { "key": "roomCode", "value": "Enter room code..." },
+      { "key": "joinByCode", "value": "Join by Code" },
+      { "key": "enterRoomCode", "value": "Please enter a room code" }
+    ]
+  },
+  "roomBrowser": {
+    "entries": [
+      { "key": "title", "value": "Available Rooms" },
+      { "key": "emptyList", "value": "No rooms available. Create one to get started!" },
+      { "key": "joinSelected", "value": "Join Selected Room" },
+      { "key": "refresh", "value": "Refresh" },
+      { "key": "backToLobby", "value": "Back to Lobby" },
+      { "key": "playerCount", "value": "{0}/{1}" },
+      { "key": "grayVariant", "value": "[Gray]" },
+      { "key": "timerEnabled", "value": "[Timer: {0}s]" },
+      { "key": "standard", "value": "[Standard]" },
+      { "key": "inProgress", "value": "[IN PROGRESS]" }
+    ]
+  },
+  "room": {
+    "entries": [
+      { "key": "roomLabel", "value": "Room: {0}" },
+      { "key": "roomName", "value": "Room: {0}" },
+      { "key": "roomCode", "value": "Room Code: {0}" },
+      { "key": "copied", "value": "Copied!" },
+      { "key": "confirmStart", "value": "Start game with {0} players?" },
+      { "key": "leave", "value": "Leave Room" },
+      { "key": "leaveRoom", "value": "Leave Room" },
+      { "key": "playersTitle", "value": "Players:" },
+      { "key": "configTitle", "value": "Game Configuration (Host Only):" },
+      { "key": "grayBox", "value": "Gray Box Variant" },
+      { "key": "maxPlayers", "value": "Max Players:" },
+      { "key": "turnTimer", "value": "Turn Timer (seconds, 0=off):" },
+      { "key": "startGame", "value": "START GAME" },
+      { "key": "host", "value": "[HOST]" },
+      { "key": "pattern2", "value": "2 Players" },
+      { "key": "pattern3", "value": "3 Players" },
+      { "key": "pattern4", "value": "4 Players" }
+    ]
+  },
+  "game": {
+    "entries": [
+      { "key": "yourTurn", "value": "Your Turn" },
+      { "key": "waiting", "value": "Waiting for {0}'s turn..." },
+      { "key": "drafting", "value": "Drafting" },
+      { "key": "tiling", "value": "Tiling" },
+      { "key": "refilling", "value": "Refilling" },
+      { "key": "gameOver", "value": "Game Over" },
+      { "key": "phaseDrafting", "value": "Drafting" },
+      { "key": "phaseTiling", "value": "Tiling" },
+      { "key": "phaseRefilling", "value": "Refilling" },
+      { "key": "phaseGameOver", "value": "Game Over" },
+      { "key": "round", "value": "Round: {0}" },
+      { "key": "roundPhase", "value": "Round {0}, {1}" },
+      { "key": "phase", "value": "Phase: {0}" },
+      { "key": "score", "value": "Score: {0}" },
+      { "key": "timeUp", "value": "TIME UP!" }
+    ]
+  },
+  "playerBoard": {
+    "entries": [
+      { "key": "select", "value": "Select" },
+      { "key": "patternLine", "value": "{0}/{1}" },
+      { "key": "floor", "value": "Floor: {0}" },
+      { "key": "boardOwner", "value": "{0}'s Board" },
+      { "key": "score", "value": "Score: {0}" },
+      { "key": "active", "value": "◄ ACTIVE" },
+      { "key": "hintDraft", "value": "Your turn! Draft tiles from factories or center." },
+      { "key": "hintFirst", "value": "Your turn! Draft tiles from factories or center. First player token in center!" },
+      { "key": "hintTiling", "value": "Scoring round... Tiles moving to wall, floor penalties applied." }
+    ]
+  },
+  "endGame": {
+    "entries": [
+      { "key": "title", "value": "🏆 {0} WINS! 🏆" },
+      { "key": "titleTie", "value": "🏆 TIE! {0} WIN! 🏆" },
+      { "key": "titleTieGeneral", "value": "🏆 TIE GAME! 🏆" },
+      { "key": "titleVictory", "value": "🏆 VICTORY! 🏆" },
+      { "key": "finalScore", "value": "Score: {0}" },
+      { "key": "bonuses", "value": "Bonuses:" },
+      { "key": "bonusRows", "value": "  Rows: +{0}" },
+      { "key": "bonusCols", "value": "  Columns: +{0}" },
+      { "key": "bonusColors", "value": "  Color Sets: +{0}" },
+      { "key": "bonusNone", "value": "  None" },
+      { "key": "rank1st", "value": "1st" },
+      { "key": "rank2nd", "value": "2nd" },
+      { "key": "rank3rd", "value": "3rd" },
+      { "key": "rank4th", "value": "4th" },
+      { "key": "newGame", "value": "New Game" },
+      { "key": "returnToLobby", "value": "Return to Lobby" },
+      { "key": "confirmNewGame", "value": "Start a new game with {0}?" },
+      { "key": "confirmReturn", "value": "Return to main menu?" }
+    ]
+  },
+  "rules": {
+    "entries": [
+      { "key": "title", "value": "Game Rules" },
+      { "key": "closeButton", "value": "Close" },
+      { "key": "objective", "value": "Objective" },
+      { "key": "objectiveText", "value": "Score points by completing horizontal rows on your wall. The game ends when any player completes a horizontal row." },
+      { "key": "setup", "value": "Setup" },
+      { "key": "setupText", "value": "Each player has a pattern board with 5 rows (1 to 5 spaces) and a 5x5 wall grid. Factories are filled with 4 random tiles each." },
+      { "key": "gameplay", "value": "Gameplay" },
+      { "key": "gameplayText", "value": "On your turn:\n1. Take all tiles of ONE color from a factory or the center\n2. Place them in one of your pattern rows\n3. Excess tiles go to your floor (penalties!)\n4. When all tiles are taken, score and refill" },
+      { "key": "scoring", "value": "Scoring" },
+      { "key": "scoringText", "value": "Complete pattern rows move to the wall:\n• Score 1 point + adjacent tiles\n• Horizontal and vertical adjacencies count\n• Floor penalties: -1 to -3 points per tile" },
+      { "key": "bonuses", "value": "End Game Bonuses" },
+      { "key": "bonusesText", "value": "• Complete horizontal row: +2\n• Complete vertical column: +7\n• Complete all 5 of one color: +10" },
+      { "key": "strategy", "value": "Strategy Tips" },
+      { "key": "strategyText", "value": "• Plan for high-scoring tile placements\n• Avoid floor penalties\n• Watch what opponents need\n• Grab the first player token strategically" }
+    ]
+  },
+  "settings": {
+    "entries": [
+      { "key": "title", "value": "Settings" },
+      { "key": "language", "value": "Language" },
+      { "key": "volume", "value": "Volume" },
+      { "key": "apply", "value": "Apply" }
+    ]
+  },
+  "errors": {
+    "entries": [
+      { "key": "connectionFailed", "value": "Connection failed: {0}" },
+      { "key": "createRoomFailed", "value": "Failed to create room: {0}" },
+      { "key": "joinRoomFailed", "value": "Failed to join room: {0}" },
+      { "key": "noRoomSelected", "value": "No room selected" },
+      { "key": "roomFull", "value": "Room is full" },
+      { "key": "roomClosed", "value": "Room is closed" },
+      { "key": "notYourTurn", "value": "Not your turn! Active player: {0}" },
+      { "key": "invalidMove", "value": "Invalid move" },
+      { "key": "hostOnly", "value": "Only the host can start the game" }
+    ]
+  },
+  "help": {
+    "entries": [
+      { "key": "gameOverTooltip", "value": "Game Over - View final scores and bonuses" }
+    ]
+  }
+}
