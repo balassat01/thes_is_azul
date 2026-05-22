@@ -11,7 +11,8 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/[Ll]ogs/
+/[Tt]est[Bb]uilds/
+/[Tt]est[Rr]esults/
 /[Uu]ser[Ss]ettings/
 *.log
 
@@ -106,5 +107,5 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
 # Logs
-/[Aa]ssets/[Ll]ogs*
-/[Ll]ogs*
+/[Aa]ssets/[Ll]ogs/
+/[Ll]ogs/
